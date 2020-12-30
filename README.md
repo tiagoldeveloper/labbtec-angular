@@ -1,27 +1,46 @@
-# Labtec
+ 
+<h1 align="center">Controle de Permissão de Usuário por Grupo.</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
+<p align="center">Api rest de controle de permissão de usuário por grupo com angular.</p>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<h4 align="center"> 
+	🚧 Em construção... 🚧
+</h4>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Features
+- [x] Cadastro de usuário
+- [x] Cadastro de permissão
+- [x] Cadastro de grupo
+- [x] Controle de grupo de usuário
+- [x] Controle de grupo de permissões 
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### 🛠 Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
+- Angular 
+- TypeScript
+- JavaScript
+- Html
+- Css
+- PrimeNg
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Autor
+ 
+<a href="https://media-exp1.licdn.com/dms/image/C4D03AQFi1T6CcqeAHQ/profile-displayphoto-shrink_200_200/0/1572101384391?e=1613606400&v=beta&t=uSf-zZbyhIyh5VDmqcRjuicxUhe5tRmJBxueUp9-WeI">
+ <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4D03AQFi1T6CcqeAHQ/profile-displayphoto-shrink_200_200/0/1572101384391?e=1613606400&v=beta&t=uSf-zZbyhIyh5VDmqcRjuicxUhe5tRmJBxueUp9-WeI" width="100px;" alt="Tiago Lima"/>
+ <br />
+ <sub><b>Tiago Lima</b></sub>
+ </a>
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Feito por Tiago Lima 👋🏽 Entre em contato!
 
-## Further help
+<a href="https://www.linkedin.com/in/tiago-santos-de-lima-20941b11b">LinkedIn</a>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<a href="tiago.ldeveloper@gmail.com">Gmail</a>
+
+
+Obs: frontend(angular) está em desenvolvimento.
