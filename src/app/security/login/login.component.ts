@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 import {SecurityService} from '../security.service';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
-import {ExceptionService} from '../../util/labte-erro.service';
+import {ExceptionService} from '../../util/labtec-erro.service';
 
 @Component({
   selector: 'app-login',
