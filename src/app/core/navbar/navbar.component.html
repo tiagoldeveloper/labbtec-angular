@@ -1,0 +1,4 @@
+<app-loading *ngIf="isLoading"></app-loading>
+<p-menubar [model]="items" *ngIf="!isLoading">
+  <button pButton pRipple type="button" icon="pi pi-sign-out" (click)="logout()" class="p-button-rounded p-button-text"></button>
+</p-menubar>

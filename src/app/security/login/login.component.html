@@ -1,0 +1,33 @@
+<p-toast [showTransformOptions]="'translateX(100%)'"></p-toast>
+<div class="cardLogin p-shadow-10">
+  <form [formGroup]="form">
+    <p-card header="Login">
+      <div class="p-grid p-fluid">
+        <div class="inputLogin p-col-12 p-md-12">
+          <label for="username">Usuário</label>
+          <input id="username" pInputText formControlName="username"
+                 aria-describedby="login-help" required="required"
+                 minlength="5" maxlength="100"
+                 [ngClass]="{'p-invalid': (!form.controls.username.valid && !form.controls.username.pristine) }">
+          <div *ngIf="!form.controls.username.valid && !form.controls.username.pristine">
+            <small id="username-help" class="p-invalid">Usuário Inválido.</small>
+          </div>
+        </div>
+        <div class="inputLogin p-col-12 p-md-12">
+          <label for="password">Senha</label>
+          <input id="password" type="password" pInputText formControlName="password"
+                 required="required" minlength="1" maxlength="100" aria-describedby="password-help"
+                 [ngClass]="{'p-invalid': (!form.controls.password.valid && !form.controls.password.pristine) }">
+          <div *ngIf="!form.controls.password.valid && !form.controls.password.pristine">
+            <small id="password-help" class="p-invalid">Senha Inválida.</small>
+          </div>
+        </div>
+      </div>
+      <p-button label="Logar" [disabled]="form.invalid" icon="pi pi-sign-in" iconPos="left"
+                (onClick)="logar()"></p-button>
+    </p-card>
+  </form>
+  <p-progressBar *ngIf="isLoading" mode="indeterminate" [style]="{'height': '6px'}"></p-progressBar>
+</div>
+
+
